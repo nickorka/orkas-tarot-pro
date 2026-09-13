@@ -1,0 +1,1 @@
+# orkas-tarot-pro
