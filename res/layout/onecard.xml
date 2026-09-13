@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/layoutOneCardMain"
+    style="@style/activity" >
+
+    <LinearLayout style="@style/adlyaout" >
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_weight="1" >
+
+        <LinearLayout
+            android:id="@+id/layoutCardReading"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:gravity="center_horizontal"
+            android:orientation="vertical" >
+
+            <ImageView
+                android:id="@+id/ImageViewCard1"
+                android:layout_width="50dp"
+                android:layout_height="70dp"
+                android:layout_gravity="center"
+                android:src="@drawable/card_back"
+                android:visibility="visible" />
+
+            <Button
+                android:id="@+id/buttonShuffle"
+                style="@style/fullwidthbutton"
+                android:layout_gravity="bottom"
+                android:layout_marginTop="5dip"
+                android:text="@string/titleShuffle" />
+
+            <Button
+                android:id="@+id/buttonCardReading"
+                style="@style/fullwidthbutton"
+                android:layout_gravity="bottom"
+                android:text="@string/titleCardReading" />
+        </LinearLayout>
+    </ScrollView>
+
+    <HorizontalScrollView
+        android:id="@+id/horizontalScrollViewDeck"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" >
+
+        <LinearLayout
+            android:id="@+id/CardDeckLayout"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent" >
+        </LinearLayout>
+    </HorizontalScrollView>
+
+</LinearLayout>

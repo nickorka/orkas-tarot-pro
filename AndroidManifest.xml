@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.orka.taropro"
+    android:versionCode="2"
+    android:versionName="1.0.1" >
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="17" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+   
+    <application
+        android:name="TaroApplication" 
+        android:icon="@drawable/taro"
+        android:label="@string/app_name" >
+        <activity android:name=".TaroActivity" >
+        </activity>
+        <activity
+            android:name=".CelticCrossActivity"
+            android:configChanges="keyboardHidden|orientation" >
+        </activity>
+        <activity android:name=".ReadingActivity" >
+        </activity>
+        <activity
+            android:name="com.google.ads.AdActivity"
+            android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize" />
+        <activity android:name=".OneCardActivity" >
+        </activity>
+        <activity android:name=".HorseshoeActivity" >
+        </activity>
+        <activity android:name=".ThreeCardActivity" >
+        </activity>
+        <activity
+            android:name=".TaroQuestionsActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".MirrorActivity" >
+        </activity>
+        <activity android:name="com.tapfortap.TapForTapActivity" >
+        </activity>
+        <activity android:name=".DeckBrowseActivity"></activity>
+        <activity android:name=".CardActivity"></activity>
+    </application>
+
+</manifest>

@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/layoutTaroMain"
+    style="@style/activity" xmlns:tools="http://schemas.android.com/tools" tools:ignore="ScrollViewSize">
+
+    <LinearLayout
+        android:id="@+id/layoutAd"
+        style="@style/adlyaout" >
+    </LinearLayout>
+
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+
+            <Button
+                android:id="@+id/buttonOneCard"
+                style="@style/centerbutton"
+                android:layout_marginTop="10dp"
+                android:text="@string/titleOneCard" />
+
+            <Button
+                android:id="@+id/buttonThreeCard"
+                style="@style/centerbutton"
+                android:layout_marginTop="5dip"
+                android:text="@string/titleThreeCard" />
+
+            <Button
+                android:id="@+id/buttonHorseshoe"
+                style="@style/centerbutton"
+                android:layout_marginTop="5dip"
+                android:text="@string/titleHorseshoeSpread" />
+
+            <Button
+                android:id="@+id/buttonCrossTaro"
+                style="@style/centerbutton"
+                android:layout_marginTop="5dip"
+                android:text="@string/titleCelticCross" />
+            <Button
+                android:id="@+id/buttonMirror"
+                style="@style/centerbutton"
+                android:layout_marginTop="5dip"
+                android:text="@string/titleMirrorMirror" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="@string/hintSelectTaroType" />
+
+            <Button
+                android:id="@+id/buttonTaroDeck"
+                style="@style/centerbutton"
+                android:layout_marginTop="5dip"
+                android:text="@string/titleTaroDeck" />
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

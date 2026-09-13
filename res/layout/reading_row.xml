@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" android:background="#00000000">
+
+    <ImageView
+        android:id="@+id/imageViewReadingCard"
+        android:layout_width="196dp"
+        android:layout_height="336dp"
+        android:layout_gravity="center"
+        android:contentDescription="@string/DescReadingCard"
+        android:src="@drawable/card_back" />
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/textViewReadinMeaning"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dip"
+                android:text="Reading meaning"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="#ff7" />
+
+            <TextView
+                android:id="@+id/textViewCardMeaning"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dip"
+                android:text="Card meaning"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="#ff7" />
+
+            <TextView
+                android:id="@+id/textViewCardReading"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dip"
+                android:text="Card Reading"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="#ff7" />
+
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

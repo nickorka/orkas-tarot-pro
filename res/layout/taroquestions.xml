@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/layoutTaroMain"
+    style="@style/activity" >
+
+    <LinearLayout
+        android:id="@+id/layoutAd"
+        style="@style/adlyaout" >
+    </LinearLayout>
+
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:gravity="center"
+                android:text="@string/taroQuestionsHeader"
+                android:textColor="#ff7"
+                android:textSize="25dip" />
+
+            <Button
+                android:id="@+id/buttonQuestionQuickDecision"
+                style="@style/centerbutton"
+                android:text="@string/questionQuickDecision" />
+
+            <Button
+                android:id="@+id/buttonQuestionExact"
+                style="@style/centerbutton"
+                android:layout_marginTop="5dip"
+                android:text="@string/questionExactQuestion" />
+
+            <Button
+                android:id="@+id/buttonUnderstandSituation"
+                style="@style/centerbutton"
+                android:layout_width="wrap_content"
+                android:layout_marginTop="5dip"
+                android:text="@string/questionUnderstandSituation" />
+
+            
+
+            <Button
+                android:id="@+id/buttonDeepAnalysis"
+                style="@style/centerbutton"
+                android:layout_marginTop="5dip"
+                android:text="@string/questionDeepAnalysis" />
+            
+            <Button
+                android:id="@+id/buttonLove"
+                style="@style/centerbutton"
+                android:layout_marginTop="5dip"
+                android:text="@string/questionLove" />
+
+            <Button
+                android:id="@+id/buttonSeeTheDeck"
+                style="@style/centerbutton"
+                android:layout_marginTop="5dip"
+                android:text="@string/questionSeeTheDeck" />
+
+            <Button
+                android:id="@+id/buttonAllSpreads"
+                style="@style/centerbutton"
+                android:layout_marginTop="5dip"
+                android:text="@string/titleAllSpreads" />
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

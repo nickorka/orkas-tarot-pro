@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Tarot Pro</string>
+    <string name="hintSelectTaroType">Select type of the card reading</string>
+    <string name="titleCelticCross">Celtic Cross</string>
+    <string name="msqPlaceholder">Placeholder</string>
+    <string name="titleHorseshoeSpread">Horseshoe Spread</string>
+    <string name="titleCardReading">Card Reading</string>
+    <string name="titleShuffle">Shuffle</string>
+    <string name="titleOneCard">One Card</string>
+
+    <string-array name="stringArrayCelticCross">
+        <item>Card 1: Present Position\nThis represente circumatances in which the Questioner currently lives. It showes influences at work right now. It also represents the Questioner.</item>
+        <item>Card 2: Immediate Influsence\nThis card illustrates obstacles lying just ahead. We say that this card crosses the Questioner.</item>
+        <item>Card 3: Goal or Destiny\nRepresents the Questioner\'s goal, and indicates what the Questioner cap expect given the current state of affair. It can also give a clue to the Questioner\'s hopes and fears about the future. This card crowns the Questioner.</item>
+        <item>Card 4: Distant Past Foundation\nExplains how the current situation came about, based on broad events that have already taken place. It can include the Questioner\'s personal history or other background information, including childhood or early life experiences. This card is behind the Questioner.</item>
+        <item>Card 5: Recent Past Events\nIndicates events in the recent past and actions of behavior in the distant past that influence the current situation or form the underpinning of present attitudes. This card is beneath the Questioner.</item>
+        <item>Card 6: Future Influence\nThis card presents influences in the near future, including other people entering the picture and short-term changes that may occure.</item>
+        <item>Card 7: About the Questioner\nThis card indicates how the Questioner feels about the present situation. It may reveal a course of action, as well as suggest the role that the Questioner must play in directing future events.</item>
+        <item>Card 8: Enviromental Factors\nRepresents people and outside factors that may affect the outcome. This card can also point to the Questioner\'s relationship to other people. How much control can the Questioner exert over the eventual resolution of the situation?</item>
+        <item>Card 9: Inner Emotions\nWhat fears trouble the Questioner? What does the Questioner secretly wish for? This card divulges the hidden desires and attitudes of the Questioner, as well as upcoming changes in the Questioner\'s perspective.</item>
+        <item>Card 10: Final Result\nThis card reveals the ultimate outcome of the situation if events couninue in their present course, based on the influences described by the other cards in the spread.</item>
+    </string-array>
+    <string-array name="stringArrayOneCard">
+        <item>1 Card Tarot Reading\nThe single card tarot is used to provide a concise reading, keeping the focus succinct and to the point.  This type of reading can be helpful when requiring a more defined answer, it’s like looking at a reading under a magnifying glass!</item>
+    </string-array>
+    <string-array name="stringArrayThreeCard">
+        <item>Left Card: The Past\nThis card shows the Questioner\'s past experiences, the ones that cast a light on the current situation.</item>
+        <item>Center Card: The Present\nThis card reveals what the Questioner is feeling and experiencing at the moment.</item>
+        <item>Right Card: The Future\nThi card predicts the result of the course of action that the Questioner will take, based on the first two cards.</item>
+    </string-array>
+    <string-array name="stringArrayHorseshoe">
+        <item>Card 1: The Past\nThe card should indicate how important the past has been on this issue. Look to see whether the card is upright or reversed and if it is part of the Major or Minor Arcana.</item>
+        <item>Card 2: The Present\nThis can refer to thoughts, feelings or actual events influencing the present.</item>
+        <item>Card 3: What is Hidden\nSecret influences that could alter the outcome of this question or surprise you with their impact.</item>
+        <item>Card 4: Obstacles to Overcome\nThese are the trials to be overcome, whether metal or physical barriers, in order to resolve this situation.</item>
+        <item>Card 5: Your Environment\nYour immediate environment, including family, friends and home, that affects this issue.</item>
+        <item>Card 6: What Should Be Done\nSometimes what should be done isn\'t what you want to do. This is a practical suggestion of what might work best rather than what must absolutely happen.</item>
+        <item>Card 7: The Likely Outcome\nThe most likely solution to your question, based on what was suggested by the 6th card. </item>
+    </string-array>
+    <string-array name="stringArrayMirror">
+        <item>Card 1: How the Questioner sees him/herself.</item>
+        <item>Card 2: How the partner sees the Questioner.</item>
+        <item>Card 3: How the Questioner sees their relationship.</item>
+        <item>Card 4: How the partner sees their relationship.</item>
+        <item>Card 5: What the Questioner wants.</item>
+        <item>Card 6: What the partner wants.</item>
+        <item>Card 7: What the Questioner needs.</item>
+        <item>Card 8: What the partner needs.</item>
+        <item>Card 9: Influences acting in favor of the Questioner.</item>
+        <item>Card 10: Influences acting against the Questioner.</item>
+        <item>Card 11: Influences acting in favor of the Questioner\'s partner.</item>
+        <item>Card 12: Influences acting against the Questioner\'s partner.</item>
+        <item>Card 13: What the Questioner needs to do.</item>
+        <item>Card 14: What the partner needs to do.</item>
+    </string-array>
+    <string-array name="cardGroups">
+        <item >Major</item>
+        <item >Wands</item>
+        <item >Cups</item>
+        <item >Swords</item>
+        <item >Pentacles</item>
+    </string-array>
+
+    <string name="dialog_button_shuffle">Shuffle</string>
+    <string name="alert_dialog_cancel">Cancel</string>
+    <string name="dialog_button_go">Go!</string>
+    <string name="dialog_title_one_card">One Card Reading Meaning</string>
+    <string name="dialog_description_one_card">This is the simplest spread of all. This is generally used for daily and quick readings. This spread is concise and good for a single issue. This can be highly exact depending on the situation.</string>
+    <string name="dialog_title_horseshoe">Horseshoe Reading Meaning</string>
+    <string name="dialog_description_horseshoe">This tarot card spread is useful for answering questions. When you ask questions it needs to be unambiguously framed. The clarity of the answer depends on the question being asked if it clear.</string>
+    <string name="dialog_title_celtic_cross">Celtic Cross Reading Meaning</string>
+    <string name="dialog_description_celtic_cross">It is one of the most popular Tarot card spreads because it can give you great insight into your environment, your hopes and fears, and your potential. Listen to its message for you and trust your intuitions. </string>
+    <string name="dialog_title_threecard">Three Card Reading Meaning</string>
+    <string name="dialog_description_threecard">The three-card spread is one of the most basic formats for quick-and-easy tarot readings. The three-card spread is amazingly flexible as I hope to demonstrate. Most of these spreads are laid out in a row, left to right, although any pattern is fine. Usualy it\'s Past-Present-Future. But it can be Body-Mind-Spirit or more generic DON\'T DO THIS-The ISSUE or SITUATION-DO DO THIS.</string>
+    <string name="dialog_title_mirror">Mirror Mirror Reading Meaning</string>
+    <string name="dialog_description_mirror">This is a fourteen card Tarot spread that looks at the wants and needs of both partners and helps to determine what needs to be done by each to improve their relationship. It also considers outside influences acting for and against each person.</string>
+        
+    <string name="titleThreeCard">Three Cards</string>
+    <string name="taroQuestionsHeader">What are you up today?</string>
+    <string name="questionQuickDecision">... making a quick decision?</string>
+    <string name="questionExactQuestion">... having exact question?</string>
+    <string name="questionUnderstandSituation">... understanding a situation?</string>
+    <string name="questionDeepAnalysis">... deep analysis of a situation?</string>
+    <string name="questionLove">... what is going on between you and him/her?</string>
+    <string name="titleAllSpreads">All Spreads</string>
+    <string name="dialog_title_review">Tarot Review</string>
+    <string name="dialog_message_review">How do you like this application?\nLet us know, please.</string>
+    <string name="dialog_review_button">Review</string>
+    <string name="dialog_latter_button">Ask later</string>
+    <string name="dialog_dont_review_button">Don\'t ask me again</string>
+    <string name="DescReadingCard">Reading Card</string>
+    <string name="DescCardMeaning">Card Meaning</string>
+    <string name="titleMirrorMirror">Mirror Mirror</string>
+    <string name="titleShare">Share</string>
+    <string name="titleTaroDeck">Taro Deck</string>
+    <string name="questionSeeTheDeck">... to see the Tarot Deck?</string>
+    
+    
+
+</resources>

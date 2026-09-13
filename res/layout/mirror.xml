@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/layoutMain"
+    style="@style/activity"
+    android:orientation="vertical"
+    tools:ignore="ContentDescription,InefficientWeight,ScrollViewSize" >
+
+    <LinearLayout style="@style/adlyaout" >
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_weight="1" >
+
+        <LinearLayout
+            android:id="@+id/layoutCardReading"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="vertical" >
+
+            <TableLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_weight="0.5"
+                android:gravity="center" >
+
+                <TableRow
+                    android:id="@+id/tableRow1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" >
+
+                    <ImageView
+                        android:id="@+id/ImageViewCard1"
+                        android:layout_width="50dp"
+                        android:layout_height="70dp"
+                        android:src="@drawable/card_back" />
+
+                    <ImageView
+                        android:id="@+id/ImageViewCard2"
+                        android:layout_width="50dp"
+                        android:layout_height="70dp"
+                        android:src="@drawable/card_back" />
+                </TableRow>
+
+                <TableRow
+                    android:id="@+id/tableRow2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center" >
+
+                    <ImageView
+                        android:id="@+id/ImageViewCard3"
+                        android:layout_width="50dp"
+                        android:layout_height="70dp"
+                        android:src="@drawable/card_back" />
+
+                    <ImageView
+                        android:id="@+id/ImageViewCard4"
+                        android:layout_width="50dp"
+                        android:layout_height="70dp"
+                        android:src="@drawable/card_back" />
+                </TableRow>
+
+                <TableRow
+                    android:id="@+id/tableRow3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" >
+
+                    <ImageView
+                        android:id="@+id/ImageViewCard5"
+                        android:layout_width="50dp"
+                        android:layout_height="70dp"
+                        android:src="@drawable/card_back" />
+
+                    <ImageView
+                        android:id="@+id/ImageViewCard6"
+                        android:layout_width="50dp"
+                        android:layout_height="70dp"
+                        android:src="@drawable/card_back" />
+                </TableRow>
+
+                <TableRow
+                    android:id="@+id/tableRow4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" >
+
+                    <ImageView
+                        android:id="@+id/ImageViewCard7"
+                        android:layout_width="50dp"
+                        android:layout_height="70dp"
+                        android:src="@drawable/card_back"
+                        android:visibility="visible" />
+
+                    <ImageView
+                        android:id="@+id/ImageViewCard8"
+                        android:layout_width="50dp"
+                        android:layout_height="70dp"
+                        android:src="@drawable/card_back" />
+                </TableRow>
+
+                <TableRow
+                    android:id="@+id/tableRow5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" >
+
+                    <ImageView
+                        android:id="@+id/ImageViewCard9"
+                        android:layout_width="50dp"
+                        android:layout_height="70dp"
+                        android:src="@drawable/card_back"
+                        android:visibility="visible" />
+
+                    <ImageView
+                        android:id="@+id/ImageViewCard10"
+                        android:layout_width="50dp"
+                        android:layout_height="70dp"
+                        android:src="@drawable/card_back" />
+                </TableRow>
+
+                <TableRow
+                    android:id="@+id/tableRow6"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" >
+
+                    <ImageView
+                        android:id="@+id/ImageViewCard11"
+                        android:layout_width="50dp"
+                        android:layout_height="70dp"
+                        android:src="@drawable/card_back"
+                        android:visibility="visible" />
+
+                    <ImageView
+                        android:id="@+id/ImageViewCard12"
+                        android:layout_width="50dp"
+                        android:layout_height="70dp"
+                        android:src="@drawable/card_back" />
+                </TableRow>
+
+                <TableRow
+                    android:id="@+id/tableRow7"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" >
+
+                    <ImageView
+                        android:id="@+id/ImageViewCard13"
+                        android:layout_width="50dp"
+                        android:layout_height="70dp"
+                        android:src="@drawable/card_back"
+                        android:visibility="visible" />
+
+                    <ImageView
+                        android:id="@+id/ImageViewCard14"
+                        android:layout_width="50dp"
+                        android:layout_height="70dp"
+                        android:src="@drawable/card_back" />
+                </TableRow>
+
+            </TableLayout>
+
+            <Button
+                android:id="@+id/buttonShuffle"
+                style="@style/fullwidthbutton"
+                android:layout_marginTop="5dip"
+                android:text="@string/titleShuffle" />
+
+            <Button
+                android:id="@+id/buttonCardReading"
+                style="@style/fullwidthbutton"
+                android:text="@string/titleCardReading" />
+        </LinearLayout>
+    </ScrollView>
+
+    <HorizontalScrollView
+        android:id="@+id/horizontalScrollViewDeck"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" >
+
+        <LinearLayout
+            android:id="@+id/CardDeckLayout"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent" >
+        </LinearLayout>
+    </HorizontalScrollView>
+
+</LinearLayout>
